@@ -1,0 +1,51 @@
+doctype html
+html
+    head 
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="https://img.favpng.com/14/12/15/online-shopping-online-and-offline-fr-hst-ckstisch-png-favpng-C1yPZXsDTBhexnb0jCGFrFYZc.jpg", alt="Musical Nights")
+                li #[a(href="/") Home]
+                li #[a(href="/") Timings]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Contact Us]
+        section#intro 
+            div Musical  Nights
+            div.caption Get into Trance
+        section#mission 
+            h2 Magical Nights Events
+            div.card
+                h3 DJ Night
+                div.cardbox
+                    div.cardimg
+                        img(src="https://www.kindpng.com/picc/m/301-3017803_dj-party-vector-png-png-download-dj-party.png", alt="DJ NIGHT")
+                    div.cardcon
+                        p Let your heart beat for music
+            div.card
+                h3 Rain Dance Night
+                div.cardbox
+                    div.cardimg
+                        img(src="https://www.nicepng.com/png/detail/647-6475645_rain-dance-silhouette-of-girl-with-umbrella.png", alt="DJ NIGHT")
+                    div.cardcon
+                        p Life isn’t about waiting for the storm to pass. It’s about learning to dance in the rain.
+            div.card
+                h3 Couples Night
+                div.cardbox
+                    div.cardimg
+                        img(src="https://www.pngfind.com/pngs/m/289-2893025_free-png-dancing-couple-silhouette-png-salsa-dancing.png", alt="DJ NIGHT")
+                    div.cardcon
+                        p Live for the moments you can't put into words.
+        section#sponsors 
+            h2 Our Sponsors
+                div#sponsor
+                    img(src="https://www.freepnglogos.com/uploads/microsoft-logo-png-transparent-background-1.png", alt="microsoft",class="spimg" )
+                    img(src="https://www.freepnglogos.com/uploads/new-google-logo-png-0.png", alt="Google",class="spimg" )
+                    img(src="https://www.freepnglogos.com/uploads/tesla-logo-text-png-7.png", alt="Tesla",class="spimg" )
+        footer#footer 
+            | Copyrights© 3MusicalNights.com
+        script 
+            include ../static/index.js

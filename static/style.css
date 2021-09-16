@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 30px;
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'MonteCarlo', cursive;
+    
+    font-weight: bolder;
+
+}
+#navbar{
+    background-color: black;
+    padding: 12px 12px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    padding: 7px 30px;
+}
+#navbar li a:hover{
+    color: indianred;
+}
+#intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.7rem;
+    height: 500px;
+    background: center/ cover no-repeat url('https://images.unsplash.com/photo-1501612780327-45045538702b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+}
+#mission{
+    display: block;
+    color: honeydew;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(131, 120, 120);
+}
+.card{
+    font-family: 'Times New Roman';
+    display: inline-block;
+    background-color: rgb(249,249,249);
+    /* background-image: url('https://www.kindpng.com/picc/m/301-3017803_dj-party-vector-png-png-download-dj-party.png'); */
+    font-size: 1.5rem;
+    border: 4px solid rgb(27, 25, 25);
+    border-radius: 10px;
+    width: 30%;
+    margin: 15px 20px;
+    height: 200px;
+}
+.card h3{
+    color: black;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    text-align: center;
+    margin: 10px;
+}
+.cardcon{
+    color: black;
+}
+.cardbox{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.cardimg img{
+    height: 100px;
+    width: 100px;
+    margin: 4px;
+}
+.cardcon{
+    padding: 4px;
+}
+#mission h2{
+    text-align: center;
+    font-size: 2.3rem;
+}
+.caption{
+    font-size: 1.5rem;
+}
+#sponsors{
+    color: honeydew;
+    height: 300px;
+    background-color: rgb(92, 85, 85);
+}
+
+#sponsors h2{
+    text-align: center;
+    font-size: 3rem;
+}
+#sponsor{
+    height: 100px;
+ 
+}
+.spimg{
+    height: 100px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 200px;
+    align-items: center;
+}
+#footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a0a0a0;
+    height: 40px;
+
+}
